@@ -43,7 +43,8 @@ export class WorkflowBuilder {
     }
 
     public build() {
-        if (Object.values(this.workflow.jobs).length === 0) throw new Error('At least one job is required');
+        if (!this.workflow.on) throw new Error('"On" describes events for Github actions and must be set.')
+        if (Object.values(this.workflow.jobs).length === 0) throw new Error('At least one job is required.');
         return this.workflow;
     }
 }
