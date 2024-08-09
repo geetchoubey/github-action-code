@@ -1,4 +1,4 @@
-import type {Shell} from "./nested";
+import type {Shell} from "./";
 
 export type Step = RunStep | UsesStep;
 
