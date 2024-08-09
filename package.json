@@ -1,0 +1,47 @@
+{
+  "name": "github-action-code",
+  "version": "0.0.1",
+  "description": "A single-dependency library for writing Github Actions as code",
+  "license": "ISC",
+  "author": "Geet Choubey",
+  "scripts": {
+    "clean": "rimraf out",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  },
+  "maintainers": [
+    {
+      "name": "Geet Choubey",
+      "email": "geetchoubey@gmail.com"
+    }
+  ],
+  "keywords": [
+    "github",
+    "actions",
+    "cdk",
+    "code",
+    "typescript",
+    "javascript",
+    "pipeline",
+    "ci/cd",
+    "ci",
+    "cd"
+  ],
+  "bugs": {
+    "url": "https://github.com/geetchoubey/github-action-code/issues"
+  },
+  "repository": {
+    "url": "https://github.com/geetchoubey/github-action-code",
+    "type": "git"
+  }
+}
