@@ -1,4 +1,4 @@
-import {IWorkflow, JobType, On, Permissions} from '../types';
+import {IWorkflow, Job, On, Permissions} from '../types';
 
 export class WorkflowBuilder {
     private workflow: IWorkflow;
@@ -37,7 +37,7 @@ export class WorkflowBuilder {
         return this;
     }
 
-    public addJob(name: string, job: JobType) {
+    public addJob(name: string, job: Job) {
         this.workflow.jobs[name] = job;
         return this;
     }

@@ -1,6 +1,6 @@
 import type {Container, Defaults, Environment, Permissions, Secrets, Step, Strategy} from "./";
 
-export type JobType = SingleJob | ReusableJob;
+export type Job = SingleJob | ReusableJob;
 
 export interface IJob {
     concurrency?: {

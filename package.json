@@ -1,8 +1,8 @@
 {
   "name": "github-action-code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A single-dependency library for writing Github Actions as code",
-  "license": "ISC",
+  "license": "MIT",
   "author": "Geet Choubey",
   "scripts": {
     "clean": "rimraf out",
