@@ -1,11 +1,13 @@
 {
   "name": "github-action-code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A single-dependency library for writing Github Actions as code",
   "license": "MIT",
   "author": "Geet Choubey",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "clean": "rimraf out",
+    "clean": "rimraf dist",
     "build": "tsc"
   },
   "devDependencies": {

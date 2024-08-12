@@ -17,7 +17,7 @@ wfBuilder
   .setName('my-service')
   .addOn({
     push: {
-      brances: ['main']
+      branches: ['main']
     }
   })
   .addJob('build', {
